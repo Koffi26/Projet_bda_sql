@@ -76,7 +76,7 @@ les bases sont les suivantes :
 
 L'étudiant S15 a emprunté 3 livres qui sont :
    
-|---|----------------------------------|
+
 |sid|               title              |
 |---|----------------------------------|
 |S15|Huis clos. Suivi de Les Mouches   |
@@ -93,14 +93,13 @@ Les titres de tous les livres qui n'ont jamais été empruntés par un étudiant
 
 Tous les étudiants qui ont emprunté le livre bid='002' sont 
 
-|-----|---|----|
 |sname|sid| bid|
 |-----|---|----|
 | popo|S16|0002|
 | toto|S15|0002|
 |-----|---|----|
 
-Il s'agit des étudiants toto et popo
+Il s'agit des étudiants popo et toto
 
 ## Question 4
 
@@ -116,12 +115,10 @@ Il n'existe pas d'étudiant qui n'a pas emprunté de livre. Tous ont emprunté a
 
 Pour la question concernant l'auteur qui a plus écrit de livres, on se retrouve avec deux auteurs qui ont écrit chacun 2 livres. 
 
-|-----------------|---|
 |             name|cnt|
 |-----------------|---|
 | Jean Paul Sartre|  2|
 |Pierre de Ronsard|  2|
-|-----------------|---|
 
 Il s'agit de Jean Paul Sartre et Pierre de Ronsard
 
