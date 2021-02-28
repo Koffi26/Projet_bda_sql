@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 import pyspark.sql.functions as F
 from pyspark.sql.functions import col
-from Data_Creation import *
+from Script.Data_Creation import *
 
 
 student.join(borrow,["sid"])\
@@ -77,7 +77,7 @@ borrow.withColumn("check", F.to_date(F.col("checkout_time"), "dd-MM-yyyy"))\
     .withColumn("retour", F.to_date(F.col("return_time"), "dd-MM-yyyy"))\
     .withColumn("Duree", F.datediff(F.col("retour"), F.col("check")))\
     .withColumn("3mois+", (F.when(F.col("Duree")>=90, 1).otherwise(0)))\
-    .toPandas().to_csv('../Contention/retour.csv')
+    .toPandas().to_csv('Contention/retour.csv')
 
 
 
