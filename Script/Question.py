@@ -79,6 +79,4 @@ borrow.withColumn("check", F.to_date(F.col("checkout_time"), "dd-MM-yyyy"))\
     .withColumn("3mois+", (F.when(F.col("Duree")>=90, 1).otherwise(0)))\
     .toPandas().to_csv('Contention/retour.csv')
 
-
-
 spark.stop()
