@@ -1,5 +1,7 @@
 <h1><center>Jointure Spark </center> </h1> 
+
 ------------------
+
 ## Exécuter le code + les dossiers
 
 Pour exécuter et voir les réponses il est conseillé dans un premier temps de télécharger le dossier (en utilisant le fichier git clones )
@@ -130,10 +132,7 @@ Seule une personne n'a pas rendu les livres. Il s'agit de l'étudiant toto.
 ## Question 8
 
 Création d'une nouvelle colonne "Duree) dans la base borrow : elle prend la valeur 1  si la durée d'emprunt est supérieure à 3 mois, sinon 0
+Le ficher csv récapitulant la nouvelle base se trouve en cliquant ici : [lien](https://github.com/Koffi26/Projet_bda_sql/blob/Draft/Contention/retour.csv)
 
-## Question 10 
-
-Commit et et Push sur le repository Git (Projet_bda_sql)
-
-
-
+--------------------------------------------------------------------
+Auteur : GNANASEELAN Benedict Jathurshan et Tchakah Koffi Kafui
